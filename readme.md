@@ -14,10 +14,10 @@
     <thead>
         <tr><th>For downloading</th><th>For cloning</th></tr>
     </thead>
-    <tbody><tr><td><code>https://github.com/dharmendrashah/expressFileLoginSystem/archive/master.zip</code>  or click <a target='_blank' href="https://github.com/dharmendrashah/expressFileLoginSystem/archive/master.zip">this</a></td><td><code>git clone https://github.com/dharmendrashah/expressFileLoginSystem.git</code></td></tr></tbody>
+    <tbody><tr><td><code>https://github.com/dharmendrashah/expressFileLoginSystem/archive/master.zip</code>  or click <a target='_blank' href="https://github.com/dharmendrashah/expressFileLoginSystem/archive/master.zip">this</a></td><td><code>git clone https://github.com/dharmendrashah/expressFileLoginSystem.git nodeJsLogiSignUP</code></td></tr></tbody>
     </table>
 </li>
-<li>Open the directory by <code>cd nodeJsLogiSignUP</code></li>
+<li>Open the directory by <code>cd expressFileLoginSystem</code></li>
 <li>Open the terminal in the preferred coding studio and type <code>npm install</code></li>
 <li>Running this on a server type <code>npm run dev</code></li>
 <li>Serve this on <code>http://localhost:3000</code> / <a target='_blank' href='http://localhost:3000'>http://localhost:3000/</a></li>
