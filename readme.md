@@ -14,7 +14,7 @@
     <thead>
         <tr><th>For downloading</th><th>For cloning</th></tr>
     </thead>
-    <tbody><tr><td><code>https://github.com/dharmendrashah/expressFileLoginSystem/archive/master.zip</code>  or click <a target='_blank' href="https://github.com/dharmendrashah/expressFileLoginSystem/archive/master.zip">this</a></td><td><code>https://github.com/dharmendrashah/expressFileLoginSystem.git</code></td></tr></tbody>
+    <tbody><tr><td><code>https://github.com/dharmendrashah/expressFileLoginSystem/archive/master.zip</code>  or click <a target='_blank' href="https://github.com/dharmendrashah/expressFileLoginSystem/archive/master.zip">this</a></td><td><code>git clone https://github.com/dharmendrashah/expressFileLoginSystem.git</code></td></tr></tbody>
     </table>
 </li>
 <li>Open the directory by <code>cd nodeJsLogiSignUP</code></li>
