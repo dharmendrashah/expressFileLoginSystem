@@ -5,8 +5,5 @@ const { ensureAuthenticated } = require('../db/auth.js');
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
-router.get('/dashboard', ensureAuthenticated, (req, res, next) => {
-  res.render('dashboard', {user: req.user});
-});
 
 module.exports = router;

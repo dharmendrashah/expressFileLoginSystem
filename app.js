@@ -8,6 +8,7 @@ const mongoose = require('mongoose');
 const flash = require('connect-flash');
 const session = require('express-session');
 const passport = require('passport');
+
 //passport 
 require('./db/passport')(passport);
 //connecting to the databse
@@ -67,9 +68,13 @@ app.use((req, res, next) => {
 //routs
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
+const dashboard = require('./routes/dashboard');
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/dashboard',dashboard);
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
